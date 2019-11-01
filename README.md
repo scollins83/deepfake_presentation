@@ -2,6 +2,10 @@
 
 
 ## Step 1: Download Models
+#### download models from links below and move them into a directory call "weights" in the root directory of this repo
+
+https://drive.google.com/uc?id=1DUMmZGTGKMyEYSKy-w34IDHawVF24rIs
+https://drive.google.com/uc?id=1xl8cg7xaRnMsyiODcXguJ83d5hwodckB
 
 ## Step 2: Install Keras
 
@@ -9,14 +13,15 @@
 pip install keras==2.2.4
 ```
 
-## Step 3: Download Models
-#### download models from links below and move them into a directory call "weights" in the root directory of this repo
-
-https://drive.google.com/uc?id=1DUMmZGTGKMyEYSKy-w34IDHawVF24rIs
-https://drive.google.com/uc?id=1xl8cg7xaRnMsyiODcXguJ83d5hwodckB
+## Step 3: Download Images and add them to 'run.py'
 
 
+## Step 4: Run the script:
+```
+python run.py
+```
 
+## Otherwise...... 
 
 ## Try in Google Colab 
  - `master` branch (Jun. 2019)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/fewshot-face-translation-GAN/blob/master/colab_demo.ipynb)
