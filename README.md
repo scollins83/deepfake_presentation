@@ -1,6 +1,15 @@
 # Few-shot face translation ![Source face: Mona Lisa](https://github.com/shaoanlu/fewshot-face-translation-GAN/raw/master/images/translation_results/MonaLisa_translation.gif)
 
 
+## Try in Google Colab 
+ - `master` branch (Jun. 2019)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/fewshot-face-translation-GAN/blob/master/colab_demo.ipynb)
+ - `dev` branch (Oct. 2019) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/fewshot-face-translation-GAN/blob/dev/colab_demo.ipynb)
+
+
+
+# Otherwise...... 
+
+
 ## Step 1: Download Models
 #### download models from links below and move them into a directory call "weights" in the root directory of this repo
 
@@ -11,9 +20,15 @@ https://drive.google.com/uc?id=1xl8cg7xaRnMsyiODcXguJ83d5hwodckB
 
 ```py
 pip install keras==2.2.4
+conda install -c menpo opencv
 ```
 
 ## Step 3: Download Images and add them to 'run.py'
+
+```py
+fn_src = "me2.png"
+fns_tar = ["download.jpg"]
+```
 
 
 ## Step 4: Run the script:
@@ -21,11 +36,8 @@ pip install keras==2.2.4
 python run.py
 ```
 
-## Otherwise...... 
 
-## Try in Google Colab 
- - `master` branch (Jun. 2019)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/fewshot-face-translation-GAN/blob/master/colab_demo.ipynb)
- - `dev` branch (Oct. 2019) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/fewshot-face-translation-GAN/blob/dev/colab_demo.ipynb)
+
 
 
 
