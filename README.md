@@ -2,10 +2,8 @@
 
 
 ## Try in Google Colab 
+
  - `master` branch (Jun. 2019)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/fewshot-face-translation-GAN/blob/master/colab_demo.ipynb)
- - `dev` branch (Oct. 2019) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/shaoanlu/fewshot-face-translation-GAN/blob/dev/colab_demo.ipynb)
-
-
 
 # Otherwise...... 
 
